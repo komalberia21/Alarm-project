@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alaram</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+    <h1 id="head"><span>Alarm <i class="fa-solid fa-bell"></i></span></h1>
+    <div class="currenttime">
+        <h1 id="curr"></h1>
+    </div>
+    <div class="inputs">
+        <input type="number" id="hr" placeholder="Hour" min="00" max="23" title="Enter a valid hour">
+        :
+        <input type="number" id="min" placeholder="Minute" min="00" max="59" title="Enter a valid minute">
+        :
+        <input type="number" id="sec" placeholder="Second" min="00" max="59" title="Enter a valid second">
+        
+        <button id="set" type="submit">Set Alarm</button>
+        <button id="stop" type="submit">Stop Alarm</button>
+    </div>
+    <hr>
+        
+    <div class="alarms"><h1>Your Alarms</h1></div>
+</div>
+    
+</body>
+<script src="script3.js"></script>
+<script
+    src="https://kit.fontawesome.com/b3348ae33f.js"
+    crossorigin="anonymous"
+  ></script>
+
+
+</html>
